@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family= Lexend:wght@100;200;300;400 & display =swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+div.column {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    height: 80vh;
+    box-shadow: 5px 24px 48px -12px rgba(16, 24, 40, 0.18);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paragraphs h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.paragraphs p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraphs {
+    font-family: Lexend;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.button-text p{
+    font-family: Lexend;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.button-text {
+    display: flex;
+    width: 488px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.social-media img {
+    margin: 2px;
+    margin-top: 10px;
+
+}
+
+.button-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 22px;
+    border-radius: 20px;
+    background-color: #007AFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.button-text button{
+    width: 67%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.logo img {
+    width: 170px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.img-seta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-seta img{
+    width: 50px;
+    height:50px;
+    margin-bottom: 15px;
+}

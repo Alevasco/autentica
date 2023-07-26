@@ -1,0 +1,56 @@
+
+<link rel="stylesheet" href="style.css">
+<div class="container">
+    <div class="column">
+    <img src="img/unsplash_car.png" >
+    </div>
+    <div class="column">
+      <div class="additional-row">
+        <h2>Welcome</h2>
+      </div>
+  
+  
+      <form>
+  
+        <div class="form-group">
+          <input type="text" id="username" name="username" placeholder="username@email.com" required>
+          <label for="username">email</label>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" name="password" placeholder="type your password" required>
+          <label for="password">password</label>
+        </div>
+        <!--      <div class="password-recovery">-->
+        <!--        <a href="#">Password Recovery</a>-->
+        <!--      </div>-->
+  
+      </form>
+      <div class="additional-row">
+        <a class="form-button blue lg" href="#">Sign in</a>
+      </div>
+  
+      <div class="additional-row">
+        <div class="separator-container">
+          <hr class="separator">
+          <span class="separator-text">or</span>
+          <hr class="separator">
+        </div>
+      </div>
+  
+      <div class="additional-row">
+        <a class="form-button lg" [routerLink]="['/user-signup']">Sign up now</a>
+      </div>
+  
+      <div class="additional-row">
+        <div class="bullet-list-container">
+          <h3>Membership benefits</h3>
+          <ul>
+            <li>Buy parts for you or your business</li>
+            <li>Sell your designs as a independent artist or OEM</li>
+            <li>Provide 3D printing services</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
